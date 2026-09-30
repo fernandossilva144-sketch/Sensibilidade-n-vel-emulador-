@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FF Sensi</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#101114;
+ color:white;
+}
+header{
+ padding:25px 18px;
+ text-align:center;
+ background:#17191e;
+}
+h1{margin:0;font-size:30px}
+p{color:#aaa}
+.container{
+ padding:18px;
+ max-width:600px;
+ margin:auto;
+}
+.card{
+ background:#1b1e24;
+ border-radius:18px;
+ padding:18px;
+ margin-bottom:15px;
+}
+select,button{
+ width:100%;
+ padding:15px;
+ margin-top:10px;
+ border:0;
+ border-radius:12px;
+ font-size:16px;
+}
+select{background:#292d35;color:white}
+button{
+ background:#ff7a00;
+ color:white;
+ font-weight:bold;
+}
+button:active{transform:scale(.98)}
+.setting{
+ margin:18px 0;
+}
+.setting-title{
+ display:flex;
+ justify-content:space-between;
+}
+input[type=range]{width:100%}
+.value{color:#ff9b42}
+.result{
+ background:#111318;
+ padding:15px;
+ border-radius:12px;
+ line-height:1.8;
+}
+.copy{
+ background:#333842;
+}
+small{color:#777}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🔥 FF SENSI</h1>
+<p>Gerenciador de configurações de sensibilidade</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Seu estilo</h2>
+
+<select id="perfil" onchange="preset()">
+<option value="rush">🔥 Rush / Curta distância</option>
+<option value="atirador">🎯 Atirador</option>
+<option value="equilibrado">⚡ Equilibrado</option>
+<option value="precisao">🎮 Precisão</option>
+</select>
+
+<h2>Configuração</h2>
+
+<div class="setting">
+<div class="setting-title">
+<span>Geral</span>
+<b id="v1" class="value">180</b>
+</div>
+<input id="s1" type="range" min="0" max="200" value="180"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Ponto Vermelho</span>
+<b id="v2" class="value">170</b>
+</div>
+<input id="s2" type="range" min="0" max="200" value="170"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Mira 2x</span>
+<b id="v3" class="value">160</b>
+</div>
+<input id="s3" type="range" min="0" max="200" value="160"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Mira 4x</span>
+<b id="v4" class="value">145</b>
+</div>
+<input id="s4" type="range" min="0" max="200" value="145"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Mira AWM</span>
+<b id="v5" class="value">85</b>
+</div>
+<input id="s5" type="range" min="0" max="200" value="85"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Olhadinha</span>
+<b id="v6" class="value">160</b>
+</div>
+<input id="s6" type="range" min="0" max="200" value="160"
+oninput="atualizar()">
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>📱 Informações do aparelho</h2>
+
+<select id="celular">
+<option>Celular básico</option>
+<option>Celular intermediário</option>
+<option>Celular gamer<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FF Sensi</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#101114;
+ color:white;
+}
+header{
+ padding:25px 18px;
+ text-align:center;
+ background:#17191e;
+}
+h1{margin:0;font-size:30px}
+p{color:#aaa}
+.container{
+ padding:18px;
+ max-width:600px;
+ margin:auto;
+}
+.card{
+ background:#1b1e24;
+ border-radius:18px;
+ padding:18px;
+ margin-bottom:15px;
+}
+select,button{
+ width:100%;
+ padding:15px;
+ margin-top:10px;
+ border:0;
+ border-radius:12px;
+ font-size:16px;
+}
+select{background:#292d35;color:white}
+button{
+ background:#ff7a00;
+ color:white;
+ font-weight:bold;
+}
+button:active{transform:scale(.98)}
+.setting{
+ margin:18px 0;
+}
+.setting-title{
+ display:flex;
+ justify-content:space-between;
+}
+input[type=range]{width:100%}
+.value{color:#ff9b42}
+.result{
+ background:#111318;
+ padding:15px;
+ border-radius:12px;
+ line-height:1.8;
+}
+.copy{
+ background:#333842;
+}
+small{color:#777}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🔥 FF SENSI</h1>
+<p>Gerenciador de configurações de sensibilidade</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Seu estilo</h2>
+
+<select id="perfil" onchange="preset()">
+<option value="rush">🔥 Rush / Curta distância</option>
+<option value="atirador">🎯 Atirador</option>
+<option value="equilibrado">⚡ Equilibrado</option>
+<option value="precisao">🎮 Precisão</option>
+</select>
+
+<h2>Configuração</h2>
+
+<div class="setting">
+<div class="setting-title">
+<span>Geral</span>
+<b id="v1" class="value">180</b>
+</div>
+<input id="s1" type="range" min="0" max="200" value="180"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Ponto Vermelho</span>
+<b id="v2" class="value">170</b>
+</div>
+<input id="s2" type="range" min="0" max="200" value="170"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Mira 2x</span>
+<b id="v3" class="value">160</b>
+</div>
+<input id="s3" type="range" min="0" max="200" value="160"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Mira 4x</span>
+<b id="v4" class="value">145</b>
+</div>
+<input id="s4" type="range" min="0" max="200" value="145"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Mira AWM</span>
+<b id="v5" class="value">85</b>
+</div>
+<input id="s5" type="range" min="0" max="200" value="85"
+oninput="atualizar()">
+</div>
+
+<div class="setting">
+<div class="setting-title">
+<span>Olhadinha</span>
+<b id="v6" class="value">160</b>
+</div>
+<input id="s6" type="range" min="0" max="200" value="160"
+oninput="atualizar()">
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>📱 Informações do aparelho</h2>
+
+<select id="celular">
+<option>Celular básico</option>
+<option>Celular intermediário</option>
+<option>Celular gamer
